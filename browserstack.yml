@@ -1,0 +1,19 @@
+framework: playwright
+platforms:
+  # - os: Windows
+  #   osVersion: 11
+  #   browserName: chrome
+  #   browserVersion: latest
+  - browserName: playwright-chromium
+    os: OS X
+    osVersion: Tahoe
+    browserVersion: 138.0
+browserstackLocal: true
+parallelsPerPlatform: 5
+buildName: Nightly
+projectName: PR Checks Demo
+CUSTOM_TAG_1: "Staging"
+# Use CUSTOM_TAG_<N> and set more build tags as you need.
+debug: true
+consoleLogs: info
+browserstackAutomation: true
