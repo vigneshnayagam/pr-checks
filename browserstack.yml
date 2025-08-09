@@ -10,7 +10,9 @@ platforms:
     browserVersion: 138.0
 browserstackLocal: true
 parallelsPerPlatform: 5
-buildName: Nightly
+# buildName: Nightly
+buildName: "Smoke"
+
 projectName: PR Checks Demo
 CUSTOM_TAG_1: "Staging"
 # Use CUSTOM_TAG_<N> and set more build tags as you need.
