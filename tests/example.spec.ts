@@ -19,5 +19,5 @@ test('get started link', async ({ page }) => {
 
 test('fix this test', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await expect(page).toHaveTitle(/NOT Playwright/);
+  await expect(page).toHaveTitle(/Playwright/);
 });
