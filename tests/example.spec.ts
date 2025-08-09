@@ -17,7 +17,7 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
-test('always fails - wrong title', async ({ page }) => {
+test('fix this test', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await expect(page).toHaveTitle('Definitely Not Playwright');
+  await expect(page).toHaveTitle(/Playwright/);
 });

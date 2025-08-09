@@ -9,3 +9,6 @@ log
 .Trashes
 ehthumbs.db
 Thumbs.db
+/test-results
+/test-results
+*.log
