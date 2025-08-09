@@ -1,2 +1,2 @@
-# pr-checks
-A sample repo created to demonstrate BrowserStack Test Reporting &amp; Analytics PR Checks
+# TRA PR Checks Sample Repo!
+A sample repo created to demonstrate BrowserStack Test Reporting & Analytics PR Checks in action!

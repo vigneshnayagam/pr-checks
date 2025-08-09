@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('variety tests', () => {
+test.describe('variety tests - init', () => {
   // --- Always Passing Tests ---
   test('always passes - addition @must_pass', async ({ page }) => {
     // Browser is opened via 'page' fixture
